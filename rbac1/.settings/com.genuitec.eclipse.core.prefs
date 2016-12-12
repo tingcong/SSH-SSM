@@ -1,0 +1,3 @@
+eclipse.preferences.version=1
+validator.Checked=WebRoot/ztree,WebRoot/dist,WebRoot/js,src/com/bean,WebRoot/ueditor,WebRoot/bootstrap,WebRoot/edt,WebRoot/easyui,WebRoot/jquery-easyui/jquery.min.js,WebRoot/WEB-INF/view,WebRoot/WEB-INF/js,WebRoot/echars,src/com/dao/impl/UserDaoImpl.java
+validator.Unchecked=

@@ -1,0 +1,82 @@
+@CHARSET "UTF-8";
+
+.bg {
+	background-image: url(../images/bj.jpg);
+	filter:
+		"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
+	-moz-background-size: 100% 100%;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+.f {
+	margin: 150px auto auto auto;
+	width: 450px;
+	height: 500px;
+	background-color: rgb(255, 255, 255);
+	filter:alpha(opacity=80);
+	opacity:0.8;
+	
+}
+
+.logo1 {
+	background-image: url(../images/logo1.png);
+	margin: auto auto auto 110px;
+	width: 230px;
+	height: 70px;
+}
+
+.huanying {
+	margin: auto auto auto auto;
+	width: 180px;
+	height: 50px;
+	font-size: 30px;
+	font-family: sans-serif;
+}
+
+.input {
+	margin: 10px auto auto auto;
+	width: 300px;
+	height: 35px;
+	font-size: 15px;
+	line-height: 30px;
+}
+
+.user {
+	margin: 10px auto auto auto;
+	width: 300px;
+	height: 35px;
+}
+
+.pwd {
+	margin: 50px auto auto auto;
+	width: 300px;
+	height: 35px;
+}
+
+.login {
+	margin: 60px auto auto auto;
+	width: 300px;
+	height: 35px;
+}
+.reg{
+	
+	margin: 30px auto auto 80px;
+	width: 40px;
+	height: 35px;
+}
+.adl{
+
+	margin: -35px auto auto 310px;
+	width: 80px;
+	height: 35px;
+}
+.but {
+	border: none;
+	margin: 10px auto auto auto;
+	width: 300px;
+	height: 35px;
+	font-size: 25px;
+	color: #FFFFFF;
+	background-color: #3CC3F5;
+}

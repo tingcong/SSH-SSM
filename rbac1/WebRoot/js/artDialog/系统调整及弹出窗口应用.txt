@@ -1,0 +1,18 @@
+1、弹出窗口的样式设置为绿色，需要修改jsp
+<script type="text/javascript" src="<%=path %>/js/artDialog/artDialog.js?skin=default"></script>
+改为
+<script type="text/javascript" src="<%=path %>/js/artDialog/artDialog.js?skin=green"></script>
+
+2、对弹出窗口的处理
+// 弹出窗口
+url = ‘需要弹出窗口的路径’
+art.dialog.open(url, {
+			title: '添加城市',
+    		width: 500, height: 400,
+    		lock: false
+    	}
+    )
+
+// 父窗口链接。
+art.dialog.parent.location
+	
